@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 - `Cart.sort_by_title()` and `Cart.sort_by_cost()`
+- `search_by_category()` in `aims/search.py`
 
 
 ## [1.0.0] - 2026-11-02

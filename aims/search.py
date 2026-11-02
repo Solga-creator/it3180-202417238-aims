@@ -1,4 +1,10 @@
-"""Tìm DVD trong danh sách theo tiêu đề."""
+"""Tìm DVD trong danh sách."""
+
+
+def search_by_category(items, keyword):
+    """Trả về các DVD có `keyword` trong category (không phân biệt hoa thường)."""
+    key = keyword.lower()
+    return [dvd for dvd in items if key in dvd.category.lower()]
 
 
 def search_by_title(items, keyword):
