@@ -23,5 +23,16 @@ class Cart:
         print("The disc is not in the cart")
         return False
 
+
+    def print_cart(self):
+        if not self.items:
+            print("The cart is empty")
+            return
+        print("***********************CART***********************")
+        for i, item in enumerate(self.items, 1):
+            print(f"{i}. {item}")
+        print(f"Total cost: {self.total_cost():.2f} $")
+        print("***************************************************")
+
     def total_cost(self):
         return sum(item.cost for item in self.items)
