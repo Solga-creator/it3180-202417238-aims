@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-11-02
+
+### Fixed
+- `search_by_title` is case-insensitive (`lion` finds The Lion King)
+
+
 ## [1.0.0] - 2026-11-02
 
 ### Added
