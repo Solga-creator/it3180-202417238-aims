@@ -35,7 +35,7 @@ class Cart:
         print("***************************************************")
 
     def total_cost(self):
-        return sum(item.cost for item in self.items)
+        return 0  # CI demo: intentionally broken
 
 
     def total_cost_with_discount(self, percent):
