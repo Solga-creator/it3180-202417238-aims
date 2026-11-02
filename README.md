@@ -6,3 +6,5 @@
 - GitHub: Solga-creator
 - Chạy chương trình: `python main.py`
 - Chạy kiểm thử (từ Lab 03): `python -m unittest discover -s tests -v`
+
+Requires Python >= 3.10.
